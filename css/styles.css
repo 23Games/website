@@ -42,6 +42,11 @@ header.masthead .mh-slider {
   top: auto;
 }
 
+.mainLogo {
+  margin-top: 3rem;
+  max-width: 100%;
+}
+
 #slider {
   background-image: url(../img/bk.jpg);
   overflow: hidden;

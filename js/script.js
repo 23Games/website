@@ -85,138 +85,138 @@ var appMaster = {
         });
     },
 
-    maps: function(){
-        // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-        google.maps.event.addDomListener(window, 'resize', init);
+    // maps: function(){
+    //     // When the window has finished loading create our google map below
+    //     google.maps.event.addDomListener(window, 'load', init);
+    //     google.maps.event.addDomListener(window, 'resize', init);
 
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                zoom: 14,
-                draggable: false,
-                zoomControl: true, 
-                scrollwheel:false,
-                streetViewControl:false,
+    //     function init() {
+    //         // Basic options for a simple Google Map
+    //         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+    //         var mapOptions = {
+    //             zoom: 14,
+    //             draggable: false,
+    //             zoomControl: true, 
+    //             scrollwheel:false,
+    //             streetViewControl:false,
 
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(31.1997396,29.9194378), // New York
+    //             // The latitude and longitude to center the map (always required)
+    //             center: new google.maps.LatLng(31.1997396,29.9194378), // New York
 
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [
-                    {
-                        "featureType": "landscape",
-                        "elementType": "labels",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "transit",
-                        "elementType": "labels",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "poi",
-                        "elementType": "labels",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "labels",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "labels.icon",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "stylers": [
-                            {
-                                "hue": "#00aaff"
-                            },
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "gamma": 2.15
-                            },
-                            {
-                                "lightness": 12
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "visibility": "on"
-                            },
-                            {
-                                "lightness": 24
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "lightness": 57
-                            }
-                        ]
-                    }
-                ]
-            };
+    //             // How you would like to style the map. 
+    //             // This is where you would paste any style found on Snazzy Maps.
+    //             styles: [
+    //                 {
+    //                     "featureType": "landscape",
+    //                     "elementType": "labels",
+    //                     "stylers": [
+    //                         {
+    //                             "visibility": "off"
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     "featureType": "transit",
+    //                     "elementType": "labels",
+    //                     "stylers": [
+    //                         {
+    //                             "visibility": "off"
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     "featureType": "poi",
+    //                     "elementType": "labels",
+    //                     "stylers": [
+    //                         {
+    //                             "visibility": "off"
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     "featureType": "water",
+    //                     "elementType": "labels",
+    //                     "stylers": [
+    //                         {
+    //                             "visibility": "off"
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     "featureType": "road",
+    //                     "elementType": "labels.icon",
+    //                     "stylers": [
+    //                         {
+    //                             "visibility": "off"
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     "stylers": [
+    //                         {
+    //                             "hue": "#00aaff"
+    //                         },
+    //                         {
+    //                             "saturation": -100
+    //                         },
+    //                         {
+    //                             "gamma": 2.15
+    //                         },
+    //                         {
+    //                             "lightness": 12
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     "featureType": "road",
+    //                     "elementType": "labels.text.fill",
+    //                     "stylers": [
+    //                         {
+    //                             "visibility": "on"
+    //                         },
+    //                         {
+    //                             "lightness": 24
+    //                         }
+    //                     ]
+    //                 },
+    //                 {
+    //                     "featureType": "road",
+    //                     "elementType": "geometry",
+    //                     "stylers": [
+    //                         {
+    //                             "lightness": 57
+    //                         }
+    //                     ]
+    //                 }
+    //             ]
+    //         };
 
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('map');
+    //         // Get the HTML DOM element that will contain your map 
+    //         // We are using a div with id="map" seen below in the <body>
+    //         var mapElement = document.getElementById('map');
 
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-            var myLatlng = new google.maps.LatLng(31.1997396,29.9194378);
-            var image = {
-                url: '../img/map_pin.png',
-                // This marker is 20 pixels wide by 32 pixels tall.
-                size: new google.maps.Size(64, 93),
-                // The origin for this image is 0,0.
-                origin: new google.maps.Point(0, 0),
-                // The anchor for this image is the base of the flagpole at 0,32.
-                anchor: new google.maps.Point(0, 32)
-            };
+    //         // Create the Google Map using out element and options defined above
+    //         var map = new google.maps.Map(mapElement, mapOptions);
+    //         var myLatlng = new google.maps.LatLng(31.1997396,29.9194378);
+    //         var image = {
+    //             url: '../img/map_pin.png',
+    //             // This marker is 20 pixels wide by 32 pixels tall.
+    //             size: new google.maps.Size(64, 93),
+    //             // The origin for this image is 0,0.
+    //             origin: new google.maps.Point(0, 0),
+    //             // The anchor for this image is the base of the flagpole at 0,32.
+    //             anchor: new google.maps.Point(0, 32)
+    //         };
 
-            var marker = new google.maps.Marker({
-                position: myLatlng,
-                icon: image,
-                map: map,
-                title: 'Hello World!'
-            });
+    //         var marker = new google.maps.Marker({
+    //             position: myLatlng,
+    //             icon: image,
+    //             map: map,
+    //             title: 'Hello World!'
+    //         });
 
-        }
-    },
+    //     }
+    // },
     animateScript: function() {
         $('.scrollpoint.sp-effect1').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeInLeft');},{offset:'100%'});
        $('.scrollpoint.sp-effect2').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeInRight');},{offset:'100%'});
@@ -236,6 +236,6 @@ $(document).ready(function() {
     appMaster.scollToTop();
     appMaster.headerSlider();
     appMaster.owlCarousel();
-    appMaster.maps();
+    // appMaster.maps();
 
 });

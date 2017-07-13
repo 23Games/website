@@ -74,7 +74,7 @@ header.masthead .mh-slider {
   font-weight: bold;
 }
 #slider .container h1 {
-  color: #de5749;
+  color: #000000;
   margin-top: 70px;
 }
 #slider .container h3 {
@@ -226,11 +226,11 @@ header.masthead .mh-slider {
   transition: all 0.25s ease-in-out;
 }
 #nav .navbar-nav li a:hover {
-  color: #de5749;
+  color: #000000;
   background: none;
 }
 #nav .navbar-nav li.active a {
-  color: #de5749;
+  color: #000000;
 }
 #nav .navbar-nav.social {
   margin-left: 15px;
@@ -248,7 +248,7 @@ header.masthead .mh-slider {
   color: gray;
 }
 #nav .navbar-nav.social li:hover {
-  background: #de5749;
+  background: #000000;
 }
 #nav .navbar-nav.social li:hover a i {
   color: white;
@@ -258,7 +258,7 @@ section {
   padding: 75px 0;
 }
 section#features {
-  background: #de5749;
+  background: #000000;
 }
 section#features .feature {
   text-align: center;
@@ -292,8 +292,8 @@ section#features .carousel-indicators {
 section#features .carousel-indicators li {
   width: 15px;
   height: 15px;
-  background: #a32a1e;
-  border-color: #a32a1e;
+  background: #0d0d0d;
+  border-color: #0d0d0d;
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -434,7 +434,7 @@ section#download .container .btn-group.small .btn:hover {
 }
 section#settings {
   color: white;
-  background: #de5749;
+  background: #000000;
 }
 section#settings img {
   margin-left: 30px;
@@ -467,10 +467,10 @@ section#screenshots .section-heading h3 {
   color: #999999;
 }
 section#screenshots .section-heading h3 span {
-  color: #de5749;
+  color: #000000;
 }
 section#screenshots .section-heading .divider {
-  background: #de5749;
+  background: #000000;
 }
 section#screenshots .section-heading p {
   color: #999999;
@@ -495,8 +495,8 @@ section#screenshots .owl-next i, section#screenshots .owl-prev i {
   transition: all 0.25s ease-in-out;
 }
 section#screenshots .owl-next:hover i, section#screenshots .owl-prev:hover i {
-  color: #de5749;
-  border-color: #de5749;
+  color: #000000;
+  border-color: #000000;
 }
 section#screenshots .owl-next i {
   padding-right: inherit;
@@ -513,10 +513,10 @@ section#packages .section-heading h3 {
   color: #555555;
 }
 section#packages .section-heading h3 span {
-  color: #25a7b4;
+  color: #232323;
 }
 section#packages .section-heading .divider {
-  background: #25a7b4;
+  background: #232323;
 }
 section#packages .section-heading p {
   color: #555555;
@@ -537,7 +537,7 @@ section#packages .pack {
   margin: 35px 0;
 }
 section#packages .pack .heading {
-  background: #25a7b4;
+  background: #232323;
   color: white;
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
@@ -584,7 +584,7 @@ section#packages .pack .details ul li:first-child {
 }
 section#packages .pack .details .btn-sign-up {
   background: white;
-  color: #25a7b4;
+  color: #232323;
   width: 85%;
   margin: 0 auto;
   border-width: 1px;
@@ -599,10 +599,10 @@ section#packages .pack:hover {
 }
 section#packages .pack:hover .heading {
   background: white;
-  color: #25a7b4;
+  color: #232323;
 }
 section#packages .pack:hover .details {
-  background: #25a7b4;
+  background: #232323;
   color: white;
 }
 section#packages .pack:hover .details ul li {
@@ -610,7 +610,7 @@ section#packages .pack:hover .details ul li {
   color: white;
 }
 section#packages .pack:hover .details .btn-sign-up {
-  background: #25a7b4;
+  background: #232323;
   color: white;
   opacity: 1;
   -webkit-transform: translatey(45px);
@@ -620,7 +620,7 @@ section#packages .pack:hover .details .btn-sign-up {
   transform: translatey(45px);
 }
 section#testimonials {
-  background: #25a7b4;
+  background: #232323;
   padding-top: 0;
   padding-bottom: 15px;
 }
@@ -636,7 +636,7 @@ section#testimonials .carousel .carousel-inner .item .carousel-caption {
 section#testimonials .carousel .carousel-inner .item img {
   width: 130px;
   margin: auto;
-  border: 5px solid #25a7b4;
+  border: 5px solid #232323;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -667,7 +667,7 @@ section#testimonials .carousel .carousel-indicators li.active {
   height: 18px;
 }
 section#team {
-  background: #de5749;
+  background: #000000;
 }
 section#team .car-next, section#team .car-prev {
   text-align: center;
@@ -759,10 +759,10 @@ section#team .member:hover {
   color: #555555;
 }
 section#team .member:hover .media-heading {
-  color: #de5749;
+  color: #000000;
 }
 section#team .member:hover .media-heading ul li a i {
-  color: #de5749;
+  color: #000000;
 }
 section#team .member:hover span.divider {
   background: #555555;
@@ -782,7 +782,7 @@ section#subscribe:before {
   bottom: 0;
   background-color: transparent;
   background-color: rgba(37, 167, 180, 0.5);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8025A7B4,endColorstr=#8025A7B4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80232323,endColorstr=#80232323);
   zoom: 1;
 }
 section#subscribe .newsletter-wrapper {
@@ -826,7 +826,7 @@ section#subscribe .form-group .form-control-feedback {
   right: 20px;
   width: inherit;
   border: none;
-  background: #25a7b4;
+  background: #232323;
   color: white;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -869,7 +869,7 @@ footer:before {
   bottom: 0;
   background-color: transparent;
   background-color: rgba(37, 167, 180, 0.5);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8025A7B4,endColorstr=#8025A7B4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80232323,endColorstr=#80232323);
   zoom: 1;
 }
 footer .spirat {
@@ -925,7 +925,7 @@ footer .social ul li a:hover {
   background: white;
 }
 footer .social ul li a:hover i {
-  color: #25a7b4;
+  color: #232323;
 }
 footer .rights {
   color: white;
@@ -981,7 +981,7 @@ footer .rights a {
 
 .btn.btn-default {
   background: white;
-  color: #de5749;
+  color: #000000;
 }
 .btn.btn-default:hover {
   background: none;
@@ -994,7 +994,7 @@ footer .rights a {
 }
 .btn.btn-empty:hover {
   background: white;
-  color: #de5749;
+  color: #000000;
 }
 
 a {

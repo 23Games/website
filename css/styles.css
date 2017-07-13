@@ -48,7 +48,7 @@ header.masthead .mh-slider {
 }
 
 #slider {
-  background-image: url(../img/bk.jpg);
+  background-image: url(../img/mainbackground.png);
   overflow: hidden;
   background-attachment: fixed;
   position: relative;
@@ -331,6 +331,7 @@ section#download .container h1 {
   padding: 50px;
   margin-top: 80px;
   font-size: 45px;
+  text-shadow: 0px 0px 5px black;
 }
 section#download .container h1 span {
   font-weight: 300;
@@ -338,6 +339,7 @@ section#download .container h1 span {
 section#download .container h4 {
   line-height: 35px;
   font-weight: 300;
+  text-shadow: 0px 0px 5px black;
 }
 section#download .container .btn-group {
   margin: 25px 0;

@@ -88,7 +88,7 @@ header.masthead .mh-slider {
 }
 #slider .container #carousel-slider .carousel-control {
   background-image: none;
-  padding-top: 45%;
+  padding-top: 75%;
 }
 #slider .container #carousel-slider .carousel-control .slider-left, #slider .container #carousel-slider .carousel-control .slider-right {
   background: url(../img/slider.png) no-repeat;

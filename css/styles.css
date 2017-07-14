@@ -853,9 +853,9 @@ section#map {
 section#sponsors {
   background: white;
 }
-img-group {
-    margin-bottom: 75px;
-    margin-top: 75px;
+section#sponsors .img-group {
+  margin-bottom: 75px;
+  margin-top: 75px;
 }
 
 footer {
@@ -1017,7 +1017,9 @@ a {
   text-transform: uppercase;
   color: white;
 }
-.section-heading h4, .section-heading p {
+.section-heading h4, .
+
+-heading p {
   color: white;
   line-height: 22px;
 }

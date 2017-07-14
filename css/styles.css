@@ -853,6 +853,9 @@ section#map {
 section#sponsors {
   background: white;
 }
+section#sponsors .container .img-logo-group {
+  margin: 75px 0;
+}
 
 footer {
   background-image: url(../img/grey.jpg);

@@ -853,7 +853,7 @@ section#map {
 section#sponsors {
   background: white;
 }
-section#sponsors .container .img-logo-group {
+img-logo-group {
   margin: 75px 0;
 }
 

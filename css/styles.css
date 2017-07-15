@@ -513,10 +513,10 @@ section#packages .section-heading h3 {
   color: #555555;
 }
 section#packages .section-heading h3 span {
-  color: #232323;
+  color: #050505;
 }
 section#packages .section-heading .divider {
-  background: #232323;
+  background: #050505;
 }
 section#packages .section-heading p {
   color: #555555;
@@ -537,7 +537,7 @@ section#packages .pack {
   margin: 35px 0;
 }
 section#packages .pack .heading {
-  background: #232323;
+  background: #050505;
   color: white;
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
@@ -584,7 +584,7 @@ section#packages .pack .details ul li:first-child {
 }
 section#packages .pack .details .btn-sign-up {
   background: white;
-  color: #232323;
+  color: #050505;
   width: 85%;
   margin: 0 auto;
   border-width: 1px;
@@ -599,10 +599,10 @@ section#packages .pack:hover {
 }
 section#packages .pack:hover .heading {
   background: white;
-  color: #232323;
+  color: #050505;
 }
 section#packages .pack:hover .details {
-  background: #232323;
+  background: #050505;
   color: white;
 }
 section#packages .pack:hover .details ul li {
@@ -610,7 +610,7 @@ section#packages .pack:hover .details ul li {
   color: white;
 }
 section#packages .pack:hover .details .btn-sign-up {
-  background: #232323;
+  background: #050505;
   color: white;
   opacity: 1;
   -webkit-transform: translatey(45px);
@@ -620,7 +620,7 @@ section#packages .pack:hover .details .btn-sign-up {
   transform: translatey(45px);
 }
 section#testimonials {
-  background: #232323;
+  background: #050505;
   padding-top: 0;
   padding-bottom: 15px;
 }
@@ -636,7 +636,7 @@ section#testimonials .carousel .carousel-inner .item .carousel-caption {
 section#testimonials .carousel .carousel-inner .item img {
   width: 130px;
   margin: auto;
-  border: 5px solid #232323;
+  border: 5px solid #050505;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -782,7 +782,7 @@ section#subscribe:before {
   bottom: 0;
   background-color: transparent;
   background-color: rgba(37, 167, 180, 0.5);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80232323,endColorstr=#80232323);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80050505,endColorstr=#80050505);
   zoom: 1;
 }
 section#subscribe .newsletter-wrapper {
@@ -826,7 +826,7 @@ section#subscribe .form-group .form-control-feedback {
   right: 20px;
   width: inherit;
   border: none;
-  background: #232323;
+  background: #050505;
   color: white;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -872,8 +872,8 @@ footer:before {
   left: 0;
   bottom: 0;
   background-color: transparent;
-  background-color: rgba(37, 167, 180, 0.5);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80232323,endColorstr=#80232323);
+  background-color: rgba(0, 0, 0, 0.9);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80050505,endColorstr=#80050505);
   zoom: 1;
 }
 footer .spirat {
@@ -929,7 +929,7 @@ footer .social ul li a:hover {
   background: white;
 }
 footer .social ul li a:hover i {
-  color: #232323;
+  color: #050505;
 }
 footer .rights {
   color: white;
